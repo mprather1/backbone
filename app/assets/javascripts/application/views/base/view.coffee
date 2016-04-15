@@ -1,2 +1,2 @@
-class App.View extends Backbone View
+class App.View extends Backbone.View
 _.extend App.View, App.Mixins

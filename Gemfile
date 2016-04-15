@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'backbone-on-rails'
 gem 'handlebars_assets'
 gem 'hamlbars'
-
+gem 'responders'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
