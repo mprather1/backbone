@@ -11,3 +11,11 @@ class App.Views.Tasks.Index extends App.View
 
   render: ->
     @$el.html(@template(@parameters()))
+
+  initialize: ->
+    @collection.on('sync', @render, @)
+    super
+
+  remove: ->
+    @collection.off('sync', @render, @)
+    super
